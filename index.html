@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./mytodos.css">
+    <title>MY Todos</title>
+</head>
+
+<body>
+    <main class="Container">
+        <section class="row justify-content-center">
+            <div class="col-12 col-md-9 " id="mycol">
+                <div class="WithSize">
+                    <h1 id="title" style="font-family: Poppins-SemiBold; color: royalblue; font-size: 50px;">MY Todos
+                    </h1>
+                </div>
+                <div class="WithSize">
+                    <input class="InputStyle" type="text" id="myinput">
+                    <button  class="btn btn-primary pe-3 ps-3" type="submit" onclick="myFanction()">Save</button>
+                </div>
+                <ul id="mylist">
+
+                </ul>
+            </div>
+        </section>
+        
+    </main>
+    <script src="./mytodos.js"></script>
+</body>
+
+</html>
